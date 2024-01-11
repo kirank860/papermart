@@ -8,6 +8,8 @@ var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/users");
 var AboutRouter = require("./routes/about");
 var ContactRouter = require("./routes/contact");
+var NewsRouter = require("./routes/news");
+var ShopRouter = require("./routes/shop");
 var app = express();
 
 // view engine setup
@@ -24,6 +26,8 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/about", AboutRouter);
 app.use("/contact", ContactRouter);
+app.use("/news", NewsRouter);
+app.use("/shop", ShopRouter);
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   next(createError(404));
