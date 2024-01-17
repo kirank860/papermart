@@ -2152,7 +2152,7 @@ a.video-play-btn {
 .shop-banner {
   position: relative;
   background-color: #f5f5f5;
-  background-image: url(../img/1.jpg);
+  background-image: url("https://img.freepik.com/free-photo/desk-covered-with-school-supplies-colorful-alarm-clocks_197531-12518.jpg?w=1480&t=st=1705492886~exp=1705493486~hmac=b8988989202fbffb6910da91794bf271ea065ca9b373fff2da534c7a017b8bc4");
   background-size: cover;
   padding: 110px 0px 115px;
 }
@@ -2193,7 +2193,7 @@ a.video-play-btn {
 }
 
 .feature-bg:after {
-  background-image: url(../img/feature-bg.jpg);
+  background-image: url("https://img.freepik.com/free-photo/notebooks-near-vase-with-twig_23-2147823699.jpg?size=626&ext=jpg&ga=GA1.1.790742631.1691391131&semt=ais");
   position: absolute;
   right: 0;
   top: 0;
